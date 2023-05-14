@@ -16,7 +16,7 @@ workflows:
           # Name of dockerfile to use. Defaults to Dockerfile.
           dockerfile: Dockerfile
           # AWS_REGION_ENV_VAR_NAME
-          region: ${AWS_REGION}
+          region: '${AWS_REGION}'
           # myECRRepository
           repo: '${MY_APP_PREFIX}'
           # myECRRepoTag
